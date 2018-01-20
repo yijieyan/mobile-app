@@ -22,6 +22,7 @@
   margin: $margin;
   >h4 {
     height: $height;
+    line-height: $height;
     padding: $txtpadding;
     text-overflow: ellipsis;
     white-space: nowrap;

@@ -81,8 +81,8 @@ export default {
   .list {
     @include list(row);
     background: #fff;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     justify-content: space-around; //平分剩余空间
     a {
       text-decoration: none;

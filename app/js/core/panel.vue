@@ -1,6 +1,6 @@
 <template>
 <div :class="[panelClass, cname]">
-  <h4>-{{ title }}-</h4>
+  <h4>-{{title}}-</h4>
   <slot/>
 </div>
 </template>

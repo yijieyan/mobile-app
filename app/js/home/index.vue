@@ -2,16 +2,19 @@
     <div>
         <NavHeader/>
         <Slider/>
+        <Panel/>
     </div>
 </template>
 
 <script>
 import NavHeader from "../public/header.vue"
 import Slider from "./slider.vue"
+import Panel from "./novice.vue"
 export default {
     components: {
         NavHeader,
         Slider,
+        Panel,
     },
     data() {
         return {

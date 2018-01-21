@@ -3,7 +3,7 @@
         <slider :swiper-slides="items" :cname="$style.slider"/>
         <div :class="$style.list">
             <div :class="$style.item" v-for="(item, index) in lists" :key="index">
-                <router-link :to="{ name: 'item.url'}">
+                <router-link :to="{ name: item.url}">
                     <img :src="item.src">
                     <h4>{{ item.text }}</h4>
                 </router-link>

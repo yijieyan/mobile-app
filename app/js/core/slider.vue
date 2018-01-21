@@ -1,8 +1,8 @@
 <template>
     <div :class="cname">
-        <swiper :options="swiperOption" :not-next-tick="notNextTick">
+        <swiper :options="swiperOption" :not-next-tick="swiperOption.notNextTick">
             <swiper-slide v-for="(item, index) in swiperSlides" :key="index">
-                <router-link :to="{ name: 'item.url'}">
+                <router-link :to="{ name: item.url}">
                     <img :src="item.src" >
                 </router-link>
             </swiper-slide>

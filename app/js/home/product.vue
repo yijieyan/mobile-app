@@ -49,9 +49,11 @@ export default {
 
 <style lang="scss" module>
   .title {
-    font-size: 32px;
-    color:#333;
-    font-weight: 700;
+    >h4 {
+      font-size: 32px;
+      color:#333;
+      font-weight: 700 !important;
+    }
   }
   .content {
     position: relative;

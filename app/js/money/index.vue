@@ -2,38 +2,31 @@
     <div>
         <NavHeader/>
         <Slider/>
-        <Novice/>
-        <Borrow/>
-        <Money/>
-        <Product/>
-        <Life/>
+        <Aba/>
+        <Seleted/>
+        <Adb/>
         <NavBar/>
-        <NavFooter/>
+        <NavFotter/>
     </div>
 </template>
 
 <script>
 import NavHeader from "../public/header.vue"
-import NavFooter from "../public/footer.vue"
+import NavFotter from "../public/footer.vue"
 import NavBar from "../public/navBar.vue"
 import Slider from "./slider.vue"
-import Novice from "./novice.vue"
-import Borrow from "./borrow.vue"
-import Money from "./money.vue"
-import Product from "./product.vue"
-import Life from "./life.vue"
-
+import Aba from "./ada.vue"
+import Seleted from "./selected.vue"
+import Adb from "./adb.vue"
 export default {
     components: {
         NavHeader,
         Slider,
-        Novice,
-        Borrow,
-        Money,
-        Product,
-        Life,
         NavBar,
-        NavFooter,
+        NavFotter,
+        Aba,
+        Seleted,
+        Adb,
     },
     data() {
         return {

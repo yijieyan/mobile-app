@@ -51,8 +51,10 @@ export default {
 <style lang="scss" module>
 @import '../../css/element.scss';
 .title {
+  >h4 {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 700 !important;
+  }
 }
 .content {
     @include list(row);

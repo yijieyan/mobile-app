@@ -19,9 +19,11 @@ export default {
 
 <style lang="scss" module>
   .title {
-    font-size: 32px;
-    font-weight: 700;
-    color:#333;
+    >h4 {
+      font-size: 32px;
+      font-weight: 700 !important;
+      color:#333;
+    }
   }
   .content {
     img {

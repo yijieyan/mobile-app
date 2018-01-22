@@ -5,7 +5,9 @@
         <Aba/>
         <Seleted/>
         <Adb/>
-        <NavBar/>
+        <Money/>
+        <Adc/>
+        <NavBar :class="title"/>
         <NavFotter/>
     </div>
 </template>
@@ -18,6 +20,8 @@ import Slider from "./slider.vue"
 import Aba from "./ada.vue"
 import Seleted from "./selected.vue"
 import Adb from "./adb.vue"
+import Money from "./money.vue"
+import Adc from "./adc.vue"
 export default {
     components: {
         NavHeader,
@@ -27,19 +31,24 @@ export default {
         Aba,
         Seleted,
         Adb,
+        Money,
+        Adc,
     },
     data() {
         return {
-
+            title: "title",
         }
     },
 }
 </script>
 
-<style lang="scss" module>
+<style lang="scss">
 @import '../../css/reset.scss';
-.home {
-    color: red;
-    font-size: 80px;
-}
+  .title {
+    li {
+      &:nth-child(1) {
+        display: none !important; //此处必须加!important
+      }
+    }
+  }
 </style>

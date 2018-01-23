@@ -3,7 +3,7 @@
         <ul :class="$style.content">
             <li>
                 <router-link :to="{ name: 'home' }">
-                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t3541/110/627394787/2190/5d02d39c/580f1dfdNcf72af31.png?width=66&height=66">
+                    <img src="//img12.360buyimg.com/jrpmobile/jfs/t3451/188/644771475/2428/800d7cb7/580f2435Nbfaa8055.png?width=66&height=66">
                     <p>首页</p>
                 </router-link>
             </li>
@@ -20,7 +20,7 @@
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'home'}">
+                <router-link :to="{ name: 'crowd'}">
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t3604/98/635506544/2317/443d3a51/580f240aNbee3dcc4.png?width=66&height=66">
                     <p>众筹</p>
                 </router-link>

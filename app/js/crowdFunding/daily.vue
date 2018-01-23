@@ -31,6 +31,7 @@ export default {
     padding-bottom: 60px;
     img {
       width: 50%;
+      height:136px;
     }
     >span {
       position: absolute;

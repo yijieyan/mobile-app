@@ -3,6 +3,7 @@
         <NavHeader/>
         <Slider/>
         <Daily/>
+          <In/>
         <More/>
         <NavBar :class="title"/>
         <NavFotter/>
@@ -16,6 +17,7 @@ import NavBar from "../public/navBar.vue"
 import Slider from "./slider.vue"
 import Daily from "./daily.vue"
 import More from "./more.vue"
+import In from "./in.vue"
 export default {
     components: {
         NavHeader,
@@ -24,6 +26,7 @@ export default {
         Slider,
         Daily,
         More,
+        In,
     },
     data() {
         return {

@@ -62,5 +62,8 @@ export default {
 
 <style lang="scss">
 //这里为了引入css样式需要在路径前面添加~
-  @import '~swiper/dist/css/swiper.css'
+  @import '~swiper/dist/css/swiper.css';
+  // .swiper-container {
+  //   height:300px;
+  // }
 </style>

@@ -3,12 +3,12 @@
         <div :class="$style.content">
             <swiper :options="options" >
                 <SwiperSlide :class="$style.item">
-                  <span>签到领流量，1元500M！</span>
-                  <img src="//m.jr.jd.com/spe/qyy/main/images/icon_arrow_gray.png"/>
-                 </SwiperSlide>
+                    <span>签到领流量，1元500M！</span>
+                    <img src="//m.jr.jd.com/spe/qyy/main/images/icon_arrow_gray.png">
+                </SwiperSlide>
                 <SwiperSlide :class="$style.item">
-                  <span>百万白条券免费送，速来领取！！</span>
-                  <img src="//m.jr.jd.com/spe/qyy/main/images/icon_arrow_gray.png"/>
+                    <span>百万白条券免费送，速来领取！！</span>
+                    <img src="//m.jr.jd.com/spe/qyy/main/images/icon_arrow_gray.png">
                 </SwiperSlide>
             </swiper>
         </div>
@@ -36,14 +36,18 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   @import '~swiper/dist/css/swiper.css';
   .swiper-container {
     height:72px;
   }
+
 </style>
 <style lang="scss" module>
   @import '../../css/element.scss';
+  // .swiper-container {
+  //   height:72px!important;
+  // }
 
   .title {
     >h4 {

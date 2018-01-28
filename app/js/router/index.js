@@ -5,6 +5,7 @@ import Home from "../home/index.vue"
 import Money from "../money/index.vue"
 import WhiteBar from "../whiteBar/index.vue"
 import Crowd from "../crowdFunding/index.vue"
+import GetMoney from "../getMoney/index.vue"
 
 
 Vue.use(Router)
@@ -30,6 +31,11 @@ export default new Router({
             path: "/Crowd",
             name: "crowd",
             component: Crowd,
+        },
+        {
+            path: "/getMoney",
+            name: "getMoney",
+            component: GetMoney,
         },
     ],
 })

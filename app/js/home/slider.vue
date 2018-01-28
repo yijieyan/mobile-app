@@ -50,7 +50,7 @@ export default {
                     text: "领红包",
                 },
                 {
-                    url: "home",
+                    url: "getMoney",
                     src: "//img12.360buyimg.com/jrpmobile/jfs/t4393/329/2180608902/13217/c88c0cec/58ec9dcdN1534e2d7.png?width=132&height=132",
                     text: "抢钢镚",
                 },

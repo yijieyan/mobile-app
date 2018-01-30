@@ -1,6 +1,13 @@
 <template lang="html">
     <div :class="$style.box">
         <MoneyHeader title="借钱"/>
+        <div :class="$style.body">
+            <section :class="$style.top">
+                <Top/>
+                <Select/>
+            </section>
+            <Ada/>
+        </div>
         <MoneyFooter :class="$style.navFooter"/>
     </div>
 </template>
@@ -8,10 +15,16 @@
 <script>
 import MoneyHeader from "../public/moneyHeader.vue"
 import MoneyFooter from "../public/moneyFooter.vue"
+import Top from "./top.vue"
+import Select from "./select.vue"
+import Ada from "./ada.vue"
 export default {
     components: {
         MoneyHeader,
         MoneyFooter,
+        Top,
+        Select,
+        Ada
     },
 }
 </script>
@@ -19,18 +32,21 @@ export default {
 <style lang="scss" module>
   body {
     background: #f3f5f7!important;
+
   }
   .box {
     position: relative;
-    .adTop {
-      width:640px;
-      height: 12px;
-      position: fixed;
-      top: 88px;
-      z-index: 200;
-      img {
+    .body {
+      >section {
         width: 640px;
-        height: 102px;
+        height: 1100px;
+        margin-top: 88px;
+        background: url('//m.jr.jd.com/vip/borrowMoney/css/i/bj.png') center center no-repeat;
+        background-size: cover;
+      }
+      margin-bottom: 120px;
+      .top {
+        // position: absolute;
       }
     }
     .navFooter {

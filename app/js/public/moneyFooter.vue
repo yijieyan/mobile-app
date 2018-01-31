@@ -14,7 +14,7 @@
                 </router-link>
             </div>
             <div :class="$style.item">
-                <router-link :to="{ name: 'getMoney'}">
+                <router-link :to="{ name: 'financeVip'}">
               <img src="//img12.360buyimg.com/jrpmobile/jfs/t10897/141/1894216742/2046/ad0e8dc1/59e9d7feNaa5dd2fd.png?width=60&height=60"/>
               <p>金融会员</p>
                 </router-link>
@@ -61,7 +61,7 @@ export default {
             p {
                 height: 26px;
                 width: 100%;
-                color: rgb(177, 180, 187)!important;
+                color: rgb(177, 180, 187);
                 font-size: 24px;
             }
         }

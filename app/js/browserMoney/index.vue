@@ -7,6 +7,9 @@
                 <Select/>
             </section>
             <Ada/>
+            <BusAndMoney/>
+            <WhiteLineService/>
+            <Last/>
         </div>
         <MoneyFooter :class="$style.navFooter"/>
     </div>
@@ -18,13 +21,19 @@ import MoneyFooter from "../public/moneyFooter.vue"
 import Top from "./top.vue"
 import Select from "./select.vue"
 import Ada from "./ada.vue"
+import BusAndMoney from "./busAndMoney.vue"
+import WhiteLineService from "./whiteLineService.vue"
+import Last from "./last.vue"
 export default {
     components: {
         MoneyHeader,
         MoneyFooter,
         Top,
         Select,
-        Ada
+        Ada,
+        BusAndMoney,
+        Last,
+        WhiteLineService,
     },
 }
 </script>
